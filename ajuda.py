@@ -85,7 +85,7 @@ def ip():
 [{G}5{C}] Voltar.
 [{G}6{C}] {R}Sair.{C}
 ''')
-too=input(f'{C}[{G}+{C}] Selecione a forma de operação:{B} ')
+   too=input(f'{C}[{G}+{C}] Selecione a forma de operação:{B} ')
   if too == "1":
      print(code_info + "Verifique se você está fazendo uso de VPN.")
      menu()
@@ -127,7 +127,7 @@ def nome():
 [{G}6{C}] Voltar.
 [{G}7{C}] {R}Sair.{C}
 ''')
-too=input(f'{C}[{G}+{C}] Selecione a forma de operação:{B} ')
+   too=input(f'{C}[{G}+{C}] Selecione a forma de operação:{B} ')
   if too == "1":
      print(code_info + "Infelizmente o banco é muito limitado e necessita de mais dados. Bancos de dados não são vendidos ou divulgados legalmente.")
      menu()
@@ -171,7 +171,7 @@ def cpf():
 [{G}6{C}] {R}Sair.{C}
 ''')
 
-too=input(f'{C}[{G}+{C}] Selecione a forma de operação:{B} ')
+   too=input(f'{C}[{G}+{C}] Selecione a forma de operação:{B} ')
   if too == "1":
      print(code_info + "Verifique se está digitando corretamente (sem traços e pontos). O erro também pode ser devido as séries de requisições feitas simultaneamente, o que tira as consultas por CPF temporariamente do ar.")
      menu()
@@ -211,7 +211,7 @@ def cep():
 [{G}5{C}] Voltar.
 [{G}6{C}] {R}Sair.{C}
 ''')
-too=input(f'{C}[{G}+{C}] Selecione a forma de operação:{B} ')
+   too=input(f'{C}[{G}+{C}] Selecione a forma de operação:{B} ')
   if too == "1":
      print(code_info + "No site dos correios, no link abaixo.\n")
      print(code_result + "https://buscacepinter.correios.com.br/app/endereco/index.php?t")
@@ -252,7 +252,7 @@ def cnpj():
 [{G}5{C}] Voltar.
 [{G}6{C}] {R}Sair.{C}
 ''')
-too=input(f'{C}[{G}+{C}] Selecione a forma de operação:{B} ')
+   too=input(f'{C}[{G}+{C}] Selecione a forma de operação:{B} ')
   if too == "1":
      print(code_info + "Fonte: Google\n")
      print(code_result + "O CNPJ substituiu o antigo CGC (Cadastro Geral do Contribuinte). ... O número do CNPJ é a forma como você identifica uma empresa. Funciona, por exemplo, como o CPF para as pessoas físicas. Mas, além de grandes empresas, profissionais autônomos, que prestam serviços, também precisam abrir CNPJ.")
@@ -293,7 +293,7 @@ def placa():
 [{G}5{C}] Voltar.
 [{G}6{C}] {R}Sair.{C}
 ''')
-too=input(f'{C}[{G}+{C}] Selecione a forma de operação:{B} ')
+   too=input(f'{C}[{G}+{C}] Selecione a forma de operação:{B} ')
   if too == "1":
      print(code_info + "Sim. Não há nada interceptando. Você está seguro.")
      menu()
@@ -333,7 +333,7 @@ def telefone():
 [{G}5{C}] Voltar.
 [{G}6{C}] {R}Sair.{C}
 ''')
-too=input(f'{C}[{G}+{C}] Selecione a forma de operação:{B} ')
+   too=input(f'{C}[{G}+{C}] Selecione a forma de operação:{B} ')
   if too == "1":
      print(code_info + "Você deve retirar traço, espaços e parênteses. E respectivamente:\nDDD do país + DDD do estado + 9 + número (8 dígitos)\nExemplo: +552186867321")
      menu()
@@ -377,7 +377,7 @@ def main():
 [{G}8{C}] Voltar.
 [{G}9{C}] {R}Sair.{C}
 ''')
-tool=input(f'{C}[{G}+{C}] Selecione a forma de operação:{B} ')
+   tool=input(f'{C}[{G}+{C}] Selecione a forma de operação:{B} ')
   if tool == "1":
      ip()
   elif tool == "2":
